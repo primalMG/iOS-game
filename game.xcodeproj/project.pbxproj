@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB2EEC0E20D2E6040051D803 /* ship1.png in Resources */ = {isa = PBXBuildFile; fileRef = FB2EEC0D20D2E6040051D803 /* ship1.png */; };
+		FB2EEC1020D2EA160051D803 /* ufoBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = FB2EEC0F20D2EA160051D803 /* ufoBlue.png */; };
 		FB5D24D420D2D27E00A3C150 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D24D320D2D27E00A3C150 /* AppDelegate.swift */; };
 		FB5D24D620D2D27E00A3C150 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D24D520D2D27E00A3C150 /* ViewController.swift */; };
 		FB5D24D920D2D27E00A3C150 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5D24D720D2D27E00A3C150 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		FB5D24DE20D2D28000A3C150 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5D24DC20D2D28000A3C150 /* LaunchScreen.storyboard */; };
 		FB5D24E920D2D28000A3C150 /* gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D24E820D2D28000A3C150 /* gameTests.swift */; };
 		FB5D24F420D2D28000A3C150 /* gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D24F320D2D28000A3C150 /* gameUITests.swift */; };
+		FB5D254220D2DD9D00A3C150 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D254120D2DD9D00A3C150 /* GameScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB2EEC0D20D2E6040051D803 /* ship1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ship1.png; sourceTree = "<group>"; };
+		FB2EEC0F20D2EA160051D803 /* ufoBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ufoBlue.png; sourceTree = "<group>"; };
 		FB5D24D020D2D27E00A3C150 /* game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB5D24D320D2D27E00A3C150 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB5D24D520D2D27E00A3C150 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		FB5D24EF20D2D28000A3C150 /* gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB5D24F320D2D28000A3C150 /* gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameUITests.swift; sourceTree = "<group>"; };
 		FB5D24F520D2D28000A3C150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5D254120D2DD9D00A3C150 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB2EEC0C20D2E6040051D803 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				FB2EEC0F20D2EA160051D803 /* ufoBlue.png */,
+				FB2EEC0D20D2E6040051D803 /* ship1.png */,
+			);
+			path = Assets;
+			sourceTree = SOURCE_ROOT;
+		};
 		FB5D24C720D2D27E00A3C150 = {
 			isa = PBXGroup;
 			children = (
@@ -97,7 +112,9 @@
 		FB5D24D220D2D27E00A3C150 /* game */ = {
 			isa = PBXGroup;
 			children = (
+				FB2EEC0C20D2E6040051D803 /* Assets */,
 				FB5D24D320D2D27E00A3C150 /* AppDelegate.swift */,
+				FB5D254120D2DD9D00A3C150 /* GameScene.swift */,
 				FB5D24D520D2D27E00A3C150 /* ViewController.swift */,
 				FB5D24D720D2D27E00A3C150 /* Main.storyboard */,
 				FB5D24DA20D2D28000A3C150 /* Assets.xcassets */,
@@ -230,6 +247,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB5D24DE20D2D28000A3C150 /* LaunchScreen.storyboard in Resources */,
+				FB2EEC0E20D2E6040051D803 /* ship1.png in Resources */,
+				FB2EEC1020D2EA160051D803 /* ufoBlue.png in Resources */,
 				FB5D24DB20D2D28000A3C150 /* Assets.xcassets in Resources */,
 				FB5D24D920D2D27E00A3C150 /* Main.storyboard in Resources */,
 			);
@@ -256,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5D254220D2DD9D00A3C150 /* GameScene.swift in Sources */,
 				FB5D24D620D2D27E00A3C150 /* ViewController.swift in Sources */,
 				FB5D24D420D2D27E00A3C150 /* AppDelegate.swift in Sources */,
 			);
@@ -431,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83PC9N4FF4;
 				INFOPLIST_FILE = game/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +469,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83PC9N4FF4;
 				INFOPLIST_FILE = game/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
