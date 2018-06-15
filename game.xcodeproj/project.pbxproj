@@ -7,20 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FB2EEC2120D300DE0051D803 /* ufoBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = FB2EEC1220D300DE0051D803 /* ufoBlue.png */; };
-		FB2EEC2220D300DE0051D803 /* ship1.png in Resources */ = {isa = PBXBuildFile; fileRef = FB2EEC1320D300DE0051D803 /* ship1.png */; };
-		FB2EEC2320D300DE0051D803 /* meteorBrown_big3.png in Resources */ = {isa = PBXBuildFile; fileRef = FB2EEC1520D300DE0051D803 /* meteorBrown_big3.png */; };
-		FB2EEC2420D300DE0051D803 /* meteorBrown_big2.png in Resources */ = {isa = PBXBuildFile; fileRef = FB2EEC1620D300DE0051D803 /* meteorBrown_big2.png */; };
-		FB2EEC2520D300DE0051D803 /* meteorBrown_big1.png in Resources */ = {isa = PBXBuildFile; fileRef = FB2EEC1720D300DE0051D803 /* meteorBrown_big1.png */; };
-		FB2EEC2620D300DE0051D803 /* meteorGrey_med2.png in Resources */ = {isa = PBXBuildFile; fileRef = FB2EEC1820D300DE0051D803 /* meteorGrey_med2.png */; };
-		FB2EEC2720D300DE0051D803 /* meteorBrown_big4.png in Resources */ = {isa = PBXBuildFile; fileRef = FB2EEC1920D300DE0051D803 /* meteorBrown_big4.png */; };
-		FB2EEC2820D300DE0051D803 /* meteorGrey_med1.png in Resources */ = {isa = PBXBuildFile; fileRef = FB2EEC1A20D300DE0051D803 /* meteorGrey_med1.png */; };
-		FB2EEC2920D300DE0051D803 /* meteorGrey_big2.png in Resources */ = {isa = PBXBuildFile; fileRef = FB2EEC1B20D300DE0051D803 /* meteorGrey_big2.png */; };
-		FB2EEC2A20D300DE0051D803 /* meteorGrey_big3.png in Resources */ = {isa = PBXBuildFile; fileRef = FB2EEC1C20D300DE0051D803 /* meteorGrey_big3.png */; };
-		FB2EEC2B20D300DE0051D803 /* meteorGrey_big1.png in Resources */ = {isa = PBXBuildFile; fileRef = FB2EEC1D20D300DE0051D803 /* meteorGrey_big1.png */; };
-		FB2EEC2C20D300DE0051D803 /* meteorBrown_med3.png in Resources */ = {isa = PBXBuildFile; fileRef = FB2EEC1E20D300DE0051D803 /* meteorBrown_med3.png */; };
-		FB2EEC2D20D300DE0051D803 /* meteorGrey_big4.png in Resources */ = {isa = PBXBuildFile; fileRef = FB2EEC1F20D300DE0051D803 /* meteorGrey_big4.png */; };
-		FB2EEC2E20D300DE0051D803 /* meteorBrown_med1.png in Resources */ = {isa = PBXBuildFile; fileRef = FB2EEC2020D300DE0051D803 /* meteorBrown_med1.png */; };
+		FB3B2F7520D401840085EA32 /* laserBlue13.png in Resources */ = {isa = PBXBuildFile; fileRef = FB3B2F6120D401830085EA32 /* laserBlue13.png */; };
+		FB3B2F7620D401840085EA32 /* laserBlue12.png in Resources */ = {isa = PBXBuildFile; fileRef = FB3B2F6220D401830085EA32 /* laserBlue12.png */; };
+		FB3B2F7720D401840085EA32 /* laserBlue15.png in Resources */ = {isa = PBXBuildFile; fileRef = FB3B2F6320D401830085EA32 /* laserBlue15.png */; };
+		FB3B2F7820D401840085EA32 /* laserBlue14.png in Resources */ = {isa = PBXBuildFile; fileRef = FB3B2F6420D401830085EA32 /* laserBlue14.png */; };
+		FB3B2F7920D401840085EA32 /* laserBlue16.png in Resources */ = {isa = PBXBuildFile; fileRef = FB3B2F6520D401830085EA32 /* laserBlue16.png */; };
+		FB3B2F7A20D401840085EA32 /* ufoBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = FB3B2F6620D401830085EA32 /* ufoBlue.png */; };
+		FB3B2F7B20D401840085EA32 /* ship1.png in Resources */ = {isa = PBXBuildFile; fileRef = FB3B2F6720D401830085EA32 /* ship1.png */; };
+		FB3B2F7C20D401840085EA32 /* meteorBrown_big3.png in Resources */ = {isa = PBXBuildFile; fileRef = FB3B2F6920D401830085EA32 /* meteorBrown_big3.png */; };
+		FB3B2F7D20D401840085EA32 /* meteorBrown_big2.png in Resources */ = {isa = PBXBuildFile; fileRef = FB3B2F6A20D401830085EA32 /* meteorBrown_big2.png */; };
+		FB3B2F7E20D401840085EA32 /* meteorBrown_big1.png in Resources */ = {isa = PBXBuildFile; fileRef = FB3B2F6B20D401830085EA32 /* meteorBrown_big1.png */; };
+		FB3B2F7F20D401840085EA32 /* meteorGrey_med2.png in Resources */ = {isa = PBXBuildFile; fileRef = FB3B2F6C20D401830085EA32 /* meteorGrey_med2.png */; };
+		FB3B2F8020D401840085EA32 /* meteorBrown_big4.png in Resources */ = {isa = PBXBuildFile; fileRef = FB3B2F6D20D401830085EA32 /* meteorBrown_big4.png */; };
+		FB3B2F8120D401840085EA32 /* meteorGrey_med1.png in Resources */ = {isa = PBXBuildFile; fileRef = FB3B2F6E20D401840085EA32 /* meteorGrey_med1.png */; };
+		FB3B2F8220D401840085EA32 /* meteorGrey_big2.png in Resources */ = {isa = PBXBuildFile; fileRef = FB3B2F6F20D401840085EA32 /* meteorGrey_big2.png */; };
+		FB3B2F8320D401840085EA32 /* meteorGrey_big3.png in Resources */ = {isa = PBXBuildFile; fileRef = FB3B2F7020D401840085EA32 /* meteorGrey_big3.png */; };
+		FB3B2F8420D401840085EA32 /* meteorGrey_big1.png in Resources */ = {isa = PBXBuildFile; fileRef = FB3B2F7120D401840085EA32 /* meteorGrey_big1.png */; };
+		FB3B2F8520D401840085EA32 /* meteorBrown_med3.png in Resources */ = {isa = PBXBuildFile; fileRef = FB3B2F7220D401840085EA32 /* meteorBrown_med3.png */; };
+		FB3B2F8620D401840085EA32 /* meteorGrey_big4.png in Resources */ = {isa = PBXBuildFile; fileRef = FB3B2F7320D401840085EA32 /* meteorGrey_big4.png */; };
+		FB3B2F8720D401840085EA32 /* meteorBrown_med1.png in Resources */ = {isa = PBXBuildFile; fileRef = FB3B2F7420D401840085EA32 /* meteorBrown_med1.png */; };
 		FB5D24D420D2D27E00A3C150 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D24D320D2D27E00A3C150 /* AppDelegate.swift */; };
 		FB5D24D620D2D27E00A3C150 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D24D520D2D27E00A3C150 /* ViewController.swift */; };
 		FB5D24D920D2D27E00A3C150 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5D24D720D2D27E00A3C150 /* Main.storyboard */; };
@@ -49,20 +54,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FB2EEC1220D300DE0051D803 /* ufoBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ufoBlue.png; sourceTree = "<group>"; };
-		FB2EEC1320D300DE0051D803 /* ship1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ship1.png; sourceTree = "<group>"; };
-		FB2EEC1520D300DE0051D803 /* meteorBrown_big3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meteorBrown_big3.png; sourceTree = "<group>"; };
-		FB2EEC1620D300DE0051D803 /* meteorBrown_big2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meteorBrown_big2.png; sourceTree = "<group>"; };
-		FB2EEC1720D300DE0051D803 /* meteorBrown_big1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meteorBrown_big1.png; sourceTree = "<group>"; };
-		FB2EEC1820D300DE0051D803 /* meteorGrey_med2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meteorGrey_med2.png; sourceTree = "<group>"; };
-		FB2EEC1920D300DE0051D803 /* meteorBrown_big4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meteorBrown_big4.png; sourceTree = "<group>"; };
-		FB2EEC1A20D300DE0051D803 /* meteorGrey_med1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meteorGrey_med1.png; sourceTree = "<group>"; };
-		FB2EEC1B20D300DE0051D803 /* meteorGrey_big2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meteorGrey_big2.png; sourceTree = "<group>"; };
-		FB2EEC1C20D300DE0051D803 /* meteorGrey_big3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meteorGrey_big3.png; sourceTree = "<group>"; };
-		FB2EEC1D20D300DE0051D803 /* meteorGrey_big1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meteorGrey_big1.png; sourceTree = "<group>"; };
-		FB2EEC1E20D300DE0051D803 /* meteorBrown_med3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meteorBrown_med3.png; sourceTree = "<group>"; };
-		FB2EEC1F20D300DE0051D803 /* meteorGrey_big4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meteorGrey_big4.png; sourceTree = "<group>"; };
-		FB2EEC2020D300DE0051D803 /* meteorBrown_med1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meteorBrown_med1.png; sourceTree = "<group>"; };
+		FB3B2F6120D401830085EA32 /* laserBlue13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laserBlue13.png; sourceTree = "<group>"; };
+		FB3B2F6220D401830085EA32 /* laserBlue12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laserBlue12.png; sourceTree = "<group>"; };
+		FB3B2F6320D401830085EA32 /* laserBlue15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laserBlue15.png; sourceTree = "<group>"; };
+		FB3B2F6420D401830085EA32 /* laserBlue14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laserBlue14.png; sourceTree = "<group>"; };
+		FB3B2F6520D401830085EA32 /* laserBlue16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laserBlue16.png; sourceTree = "<group>"; };
+		FB3B2F6620D401830085EA32 /* ufoBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ufoBlue.png; sourceTree = "<group>"; };
+		FB3B2F6720D401830085EA32 /* ship1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ship1.png; sourceTree = "<group>"; };
+		FB3B2F6920D401830085EA32 /* meteorBrown_big3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meteorBrown_big3.png; sourceTree = "<group>"; };
+		FB3B2F6A20D401830085EA32 /* meteorBrown_big2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meteorBrown_big2.png; sourceTree = "<group>"; };
+		FB3B2F6B20D401830085EA32 /* meteorBrown_big1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meteorBrown_big1.png; sourceTree = "<group>"; };
+		FB3B2F6C20D401830085EA32 /* meteorGrey_med2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meteorGrey_med2.png; sourceTree = "<group>"; };
+		FB3B2F6D20D401830085EA32 /* meteorBrown_big4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meteorBrown_big4.png; sourceTree = "<group>"; };
+		FB3B2F6E20D401840085EA32 /* meteorGrey_med1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meteorGrey_med1.png; sourceTree = "<group>"; };
+		FB3B2F6F20D401840085EA32 /* meteorGrey_big2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meteorGrey_big2.png; sourceTree = "<group>"; };
+		FB3B2F7020D401840085EA32 /* meteorGrey_big3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meteorGrey_big3.png; sourceTree = "<group>"; };
+		FB3B2F7120D401840085EA32 /* meteorGrey_big1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meteorGrey_big1.png; sourceTree = "<group>"; };
+		FB3B2F7220D401840085EA32 /* meteorBrown_med3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meteorBrown_med3.png; sourceTree = "<group>"; };
+		FB3B2F7320D401840085EA32 /* meteorGrey_big4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meteorGrey_big4.png; sourceTree = "<group>"; };
+		FB3B2F7420D401840085EA32 /* meteorBrown_med1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meteorBrown_med1.png; sourceTree = "<group>"; };
 		FB5D24D020D2D27E00A3C150 /* game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB5D24D320D2D27E00A3C150 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB5D24D520D2D27E00A3C150 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,31 +114,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FB2EEC1120D300DE0051D803 /* Assets */ = {
+		FB3B2F6020D401830085EA32 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				FB2EEC1220D300DE0051D803 /* ufoBlue.png */,
-				FB2EEC1320D300DE0051D803 /* ship1.png */,
-				FB2EEC1420D300DE0051D803 /* Meteors */,
+				FB3B2F6120D401830085EA32 /* laserBlue13.png */,
+				FB3B2F6220D401830085EA32 /* laserBlue12.png */,
+				FB3B2F6320D401830085EA32 /* laserBlue15.png */,
+				FB3B2F6420D401830085EA32 /* laserBlue14.png */,
+				FB3B2F6520D401830085EA32 /* laserBlue16.png */,
+				FB3B2F6620D401830085EA32 /* ufoBlue.png */,
+				FB3B2F6720D401830085EA32 /* ship1.png */,
+				FB3B2F6820D401830085EA32 /* Meteors */,
 			);
 			path = Assets;
 			sourceTree = SOURCE_ROOT;
 		};
-		FB2EEC1420D300DE0051D803 /* Meteors */ = {
+		FB3B2F6820D401830085EA32 /* Meteors */ = {
 			isa = PBXGroup;
 			children = (
-				FB2EEC1520D300DE0051D803 /* meteorBrown_big3.png */,
-				FB2EEC1620D300DE0051D803 /* meteorBrown_big2.png */,
-				FB2EEC1720D300DE0051D803 /* meteorBrown_big1.png */,
-				FB2EEC1820D300DE0051D803 /* meteorGrey_med2.png */,
-				FB2EEC1920D300DE0051D803 /* meteorBrown_big4.png */,
-				FB2EEC1A20D300DE0051D803 /* meteorGrey_med1.png */,
-				FB2EEC1B20D300DE0051D803 /* meteorGrey_big2.png */,
-				FB2EEC1C20D300DE0051D803 /* meteorGrey_big3.png */,
-				FB2EEC1D20D300DE0051D803 /* meteorGrey_big1.png */,
-				FB2EEC1E20D300DE0051D803 /* meteorBrown_med3.png */,
-				FB2EEC1F20D300DE0051D803 /* meteorGrey_big4.png */,
-				FB2EEC2020D300DE0051D803 /* meteorBrown_med1.png */,
+				FB3B2F6920D401830085EA32 /* meteorBrown_big3.png */,
+				FB3B2F6A20D401830085EA32 /* meteorBrown_big2.png */,
+				FB3B2F6B20D401830085EA32 /* meteorBrown_big1.png */,
+				FB3B2F6C20D401830085EA32 /* meteorGrey_med2.png */,
+				FB3B2F6D20D401830085EA32 /* meteorBrown_big4.png */,
+				FB3B2F6E20D401840085EA32 /* meteorGrey_med1.png */,
+				FB3B2F6F20D401840085EA32 /* meteorGrey_big2.png */,
+				FB3B2F7020D401840085EA32 /* meteorGrey_big3.png */,
+				FB3B2F7120D401840085EA32 /* meteorGrey_big1.png */,
+				FB3B2F7220D401840085EA32 /* meteorBrown_med3.png */,
+				FB3B2F7320D401840085EA32 /* meteorGrey_big4.png */,
+				FB3B2F7420D401840085EA32 /* meteorBrown_med1.png */,
 			);
 			path = Meteors;
 			sourceTree = "<group>";
@@ -156,7 +171,7 @@
 		FB5D24D220D2D27E00A3C150 /* game */ = {
 			isa = PBXGroup;
 			children = (
-				FB2EEC1120D300DE0051D803 /* Assets */,
+				FB3B2F6020D401830085EA32 /* Assets */,
 				FB5D24D320D2D27E00A3C150 /* AppDelegate.swift */,
 				FB5D254120D2DD9D00A3C150 /* GameScene.swift */,
 				FB5D24D520D2D27E00A3C150 /* ViewController.swift */,
@@ -290,23 +305,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB2EEC2720D300DE0051D803 /* meteorBrown_big4.png in Resources */,
-				FB2EEC2A20D300DE0051D803 /* meteorGrey_big3.png in Resources */,
+				FB3B2F8020D401840085EA32 /* meteorBrown_big4.png in Resources */,
+				FB3B2F8620D401840085EA32 /* meteorGrey_big4.png in Resources */,
+				FB3B2F8320D401840085EA32 /* meteorGrey_big3.png in Resources */,
+				FB3B2F8720D401840085EA32 /* meteorBrown_med1.png in Resources */,
+				FB3B2F7E20D401840085EA32 /* meteorBrown_big1.png in Resources */,
+				FB3B2F7920D401840085EA32 /* laserBlue16.png in Resources */,
+				FB3B2F7B20D401840085EA32 /* ship1.png in Resources */,
+				FB3B2F7A20D401840085EA32 /* ufoBlue.png in Resources */,
+				FB3B2F8420D401840085EA32 /* meteorGrey_big1.png in Resources */,
 				FB5D24DE20D2D28000A3C150 /* LaunchScreen.storyboard in Resources */,
-				FB2EEC2220D300DE0051D803 /* ship1.png in Resources */,
-				FB2EEC2D20D300DE0051D803 /* meteorGrey_big4.png in Resources */,
-				FB2EEC2420D300DE0051D803 /* meteorBrown_big2.png in Resources */,
-				FB2EEC2520D300DE0051D803 /* meteorBrown_big1.png in Resources */,
+				FB3B2F7520D401840085EA32 /* laserBlue13.png in Resources */,
 				FB5D24DB20D2D28000A3C150 /* Assets.xcassets in Resources */,
-				FB2EEC2E20D300DE0051D803 /* meteorBrown_med1.png in Resources */,
-				FB2EEC2120D300DE0051D803 /* ufoBlue.png in Resources */,
-				FB2EEC2C20D300DE0051D803 /* meteorBrown_med3.png in Resources */,
-				FB2EEC2820D300DE0051D803 /* meteorGrey_med1.png in Resources */,
-				FB2EEC2B20D300DE0051D803 /* meteorGrey_big1.png in Resources */,
-				FB2EEC2920D300DE0051D803 /* meteorGrey_big2.png in Resources */,
+				FB3B2F7D20D401840085EA32 /* meteorBrown_big2.png in Resources */,
+				FB3B2F7F20D401840085EA32 /* meteorGrey_med2.png in Resources */,
+				FB3B2F7C20D401840085EA32 /* meteorBrown_big3.png in Resources */,
+				FB3B2F7820D401840085EA32 /* laserBlue14.png in Resources */,
+				FB3B2F7720D401840085EA32 /* laserBlue15.png in Resources */,
+				FB3B2F7620D401840085EA32 /* laserBlue12.png in Resources */,
+				FB3B2F8220D401840085EA32 /* meteorGrey_big2.png in Resources */,
 				FB5D24D920D2D27E00A3C150 /* Main.storyboard in Resources */,
-				FB2EEC2620D300DE0051D803 /* meteorGrey_med2.png in Resources */,
-				FB2EEC2320D300DE0051D803 /* meteorBrown_big3.png in Resources */,
+				FB3B2F8120D401840085EA32 /* meteorGrey_med1.png in Resources */,
+				FB3B2F8520D401840085EA32 /* meteorBrown_med3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,35 +14,31 @@ class GameScene: SKScene {
     var content = false
     
     let player = SKSpriteNode(imageNamed: "ship1.png")
-    
+    var touchLocaton = CGPoint()
     
     override func didMove(to view: SKView) {
-        backgroundColor = SKColor.white
+        createContent()
+      
         
+        run(SKAction.repeatForever(SKAction.sequence([SKAction.run(addUFO),
+                SKAction.wait(forDuration: 1.0)])
+            ))
+        
+        run(SKAction.repeatForever(SKAction.sequence([SKAction.run(fireProjectile),
+                                                      SKAction.wait(forDuration: 0.5)])
+        ))
+    }
+    
+    func createContent(){
+        backgroundColor = SKColor.white
         player.setScale(0.5)
+        
         player.position = CGPoint(x: self.size.width * 0.5, y: self.size.height * 0.1)
         
         addChild(player)
-        
-            run(SKAction.repeatForever(SKAction.sequence([SKAction.run(addUFO),
-                                                          SKAction.wait(forDuration: 1.0)])
-            ))
-        
-//        run(SKAction.repeatForever(SKAction.sequence([SKAction.run(addMeteor),
-//        ))
-//
-        
-        
     }
     
-//    func createContent(){
-//
-//        let player = SKSpriteNode(imageNamed: "ship1.png")
-//
-//        player.position = CGPoint(x: self.size.width * 0.5, y: self.size.height * 0.1)
-//
-//        self.addChild(player)
-//    }
+
     
     func random() -> CGFloat {
         return CGFloat(Float(arc4random()) / 0xFFFFFFFF)
@@ -50,6 +46,24 @@ class GameScene: SKScene {
     
     func random(min: CGFloat, max: CGFloat) -> CGFloat {
         return random() * (max - min) + min
+    }
+    
+    func fireProjectile() {
+        let projectile = SKSpriteNode(imageNamed: "laserBlue16.png")
+        
+        projectile.setScale(0.5)
+        
+        projectile.position = player.position
+        
+        addChild(projectile)
+        
+        let y = size.height + projectile.size.height * 2
+        
+        
+        
+        let action = SKAction.moveTo(y: y + projectile.position.y, duration: 0.5)
+        let actionComplete = SKAction.removeFromParent()
+        projectile.run(SKAction.sequence([action, actionComplete]))
     }
     
     func addUFO(){
@@ -83,11 +97,14 @@ class GameScene: SKScene {
     
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         for touch in touches {
-            let location = touch.location(in: self)
+            touchLocaton = touch.location(in: self)
             
-            player.position.x = location.x
-            player.position.y = location.y
+            playerMovement()
         }
+    }
+    
+    func playerMovement(){
+        player.position.x = touchLocaton.x
     }
   
     
