@@ -34,7 +34,7 @@ class GameScene: SKScene {
         physicsWorld.contactDelegate = self
         
         run(SKAction.repeatForever(SKAction.sequence([SKAction.run(addMeteor),
-                SKAction.wait(forDuration: 1.0)])
+                SKAction.wait(forDuration: 0.6)])
             ))
         
         run(SKAction.repeatForever(SKAction.sequence([SKAction.run(fireProjectile),
@@ -70,23 +70,10 @@ class GameScene: SKScene {
         
     }
     
-//    func background(){
-//        for i in 0 ... 1 {
-//            let backgrounds = SKSpriteNode(imageNamed: "purple.png")
-//            backgrounds.name = "space"
-//            backgrounds.size = CGSize(width: (self.scene?.size.width)!, height: (self.scene?.size.height)!)
-//            backgrounds.anchorPoint = CGPoint(x: 0.5, y: 0.5)
-//            backgrounds.position = CGPoint(x: CGFloat(i) * backgrounds.size.width, y: -(self.frame.size.height * 2))
-////         backgrounds.position = CGPoint(x: size.width/2, y: size.height/2)
-//
-//            addChild(backgrounds)
-//        }
-//    }
-    
     func background(){
         let background = SKTexture(imageNamed: "purple.png")
         
-        for i in 0 ... 2 {
+        for i in 0 ... 3 {
             let ground = SKSpriteNode(texture: background)
             ground.zPosition = -10
             ground.position = CGPoint(x: background.size().width / 2, y: (background.size().height / 2 + (background.size().height * CGFloat(i))))
